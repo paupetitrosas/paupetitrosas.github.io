@@ -726,7 +726,7 @@ main {
  * #clients 
  */
 
-.clients { margin-bottom: 15px; }
+.clients { margin-bottom: 5px; }
 
 .clients-list {
   display: flex;
@@ -750,7 +750,7 @@ main {
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
+  object-fit: cover;
   transition: var(--transition-1);
 }
 
@@ -1001,8 +1001,7 @@ main {
 .project-item-icon-box ion-icon { --ionicon-stroke-width: 50px; }
 
 .project-img img {
-  width: 100%;
-  height: 100%;
+  height: 200px;
   object-fit: cover;
   transition: var(--transition-1);
 }
