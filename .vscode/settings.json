@@ -1,0 +1,17 @@
+{
+ "grammarly.selectors": [
+  {
+   "language": "html",
+   "scheme": "file",
+   "pattern": "index.html"
+  },
+  {
+   "language": "jsonc",
+   "scheme": "file"
+  },
+  {
+   "language": "html",
+   "scheme": "file"
+  }
+ ]
+}
