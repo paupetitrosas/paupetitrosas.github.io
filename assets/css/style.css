@@ -1430,7 +1430,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .testimonials-avatar-box img { 
    width: 80px; 
-   object-fit: scale-down;}
+   height: 80px;
+   object-fit: sclae-down;}
 
   .testimonials-item-title {
     margin-bottom: 10px;
